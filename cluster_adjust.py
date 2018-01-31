@@ -3,10 +3,10 @@
 
 from __future__ import division
 import numpy as np
-# import pytest
 from time import clock
 from datetime import datetime
 from itertools import groupby
+import flask
 
 
 # List[:-1] eliminates the last element, List[:-2] eliminates the last two elements. List[-1:] yields nothing, List[-2:] yields the last two elements.
@@ -161,10 +161,10 @@ if "__main__" == __name__:
 	test_two_groups()
 	test_three_groups()
 	test_missing_vals()
-	# test_missing_weights()
-	# test_missing_groups()
-	# test_weights_len_equals_group_len()
-	# test_group_len_equals_vals_len()
+	test_missing_weights()
+	test_missing_groups()
+	test_weights_len_equals_group_len()
+	test_group_len_equals_vals_len()
 	print "=== Ladies and Gentlmen, Now the Run Finishes! ===\n"
 	test_performance()
 
