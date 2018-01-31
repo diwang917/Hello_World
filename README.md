@@ -1,4 +1,3 @@
 # Hello_World
 
-An initial GitHub test.
-Do you know what I mean?
+A following GitHub test. Now you know what I meant.
